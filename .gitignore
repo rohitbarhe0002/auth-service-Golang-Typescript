@@ -1,0 +1,34 @@
+# Ignore the .env file that contains sensitive information
+.env
+
+# Ignore Go binary files
+/bin/
+/out/
+
+# Ignore vendor directory (if using vendoring in Go)
+vendor/
+
+# Ignore Go workspace file
+*.workspace
+
+# Ignore test coverage file
+*.cover
+
+# Ignore IDE or editor config files (example for VS Code and IntelliJ IDEA)
+.vscode/
+.idea/
+
+# Ignore OS-specific files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+
+# Ignore Go dependency lock files (if using modules)
+go.sum
+
+# Ignore compiled Go binaries
+*.exe
+*.out
+*.test
+
+# Ignore log files
+*.log
